@@ -1,0 +1,147 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+#title{
+  position:relative;
+  margin:0;
+  padding: 0;
+  background-color: #000;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.header h1{
+  position: absolute;
+  font-family: 'Dancing Script', cursive;
+  color:#fff;
+  top:6%;
+
+}
+.row h1{
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.row h2{
+  color:#fff;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+.row .welcome{
+  position: absolute;
+  font-size: 7rem;
+  top:10%;
+  left:70%;
+}
+.row .name-1{
+  position:absolute;
+  top:45%;
+  left:70%;
+  font-size: 3rem;
+
+}
+
+.row .name-2{
+  position:absolute;
+  top:55%;
+  left:56%;
+  font-size: 3rem;
+
+}
+.row .name-3{
+  position:absolute;
+  top:65%;
+  left:40%;;
+  font-size: 3rem;
+
+}
+.button{
+  position: absolute;
+  text-align: center;
+  top: 90%;
+  left:80%;
+  transform:translate(-50%,-50%);
+}
+.contact:hover{
+  color: #000;
+}
+.contact{
+  border: 1px solid #f8f1f1;
+  border-radius: 15px;
+  color:#f8f1f1;
+  background: none;
+  padding:10px 20px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.contact::before{
+  content: '';
+  position: absolute;
+  left:0;
+  width:100%;
+  height:0;
+  background: #f8f1f1;
+  z-index: -1;
+  transition: 0.8s;
+}
+.contact::before{
+  top:0;
+  border-radius: 0 0 50% 50%;
+}
+.contact:hover::before{
+  height:180%;
+}
+.row img{
+  position: relative;
+  top:1%;
+  left: 20%;
+  height: 500px;
+  width: 500px;
+}
+.vl{
+  position: absolute;
+  top:20%;
+  left: 3%;
+  border-left: 6px solid white;
+  height: 170px;
+}
+.row .work-1{
+  position:absolute;
+  top:20%;
+  left:10%;
+}
+.row .work-2{
+  position:absolute;
+  top:40%;
+  left:20%;
+}
+.row .work-3{
+  position:absolute;
+  top:48%;
+  left:10%;
+}
+.row i{
+  position: absolute;
+  top: 66%;;
+  left:0%;
+}
+.row p{
+  position: absolute;
+  top:65%;
+  left:15%;
+  color:#7c9473;
+}
+nav{
+  position: absolute;
+  top: 5%;
+}
